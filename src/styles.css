@@ -37,7 +37,7 @@ ul {
   color: #cbd5e5;
 }
 .overview {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .weather-temprature img {
   margin-right: 20px;
@@ -51,4 +51,7 @@ ul {
   position: relative;
   font-size: 16px;
   top: -20px;
+}
+.info-sm {
+  font-size: 12px;
 }
