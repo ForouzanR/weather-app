@@ -12,7 +12,6 @@ h1 {
   margin-bottom: 10px;
 }
 li {
-  text-transform: capitalize;
   padding: 0px;
   margin-top: 8px;
   list-style: none;
@@ -20,6 +19,9 @@ li {
   font-size: 18px;
   font-weight: 100;
   line-height: 20px;
+}
+li::first-letter {
+  text-transform: capitalize;
 }
 ul {
   margin: 0;
