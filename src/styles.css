@@ -73,3 +73,10 @@ ul {
   background-color: #986ac9;
   border-color: #76059c;
 }
+.weather-temprature .active {
+  color: #83b2fe;
+  cursor: default;
+}
+.weather-temprature .active:hover {
+  text-decoration: none;
+}
