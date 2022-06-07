@@ -60,3 +60,16 @@ ul {
   padding: 0;
   margin: 0;
 }
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #558ded !important;
+  border-color: #76059c;
+}
+
+.btn-secondary {
+  background-color: #986ac9;
+  border-color: #76059c;
+}
