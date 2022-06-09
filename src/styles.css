@@ -69,14 +69,40 @@ ul {
   border-color: #76059c;
 }
 
-.btn-secondary {
-  background-color: #986ac9;
-  border-color: #76059c;
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:visited,
+.btn-secondary:active {
+  background-color: #986ac9 !important;
+  border-color: #558ded ;
+
 }
+
 .weather-temprature .active {
   color: #83b2fe;
   cursor: default;
 }
 .weather-temprature .active:hover {
   text-decoration: none;
+}
+.weather-forcast {
+  text-align: center;
+  margin-top: 25px;
+  color: #cbd5e5;
+}
+.icon{
+  width: 100px;
+  margin-left: 50px !important;
+  margin-top: -10px;
+}
+.temperature{
+ margin-left: 50px !important;
+ margin-top: 0px !important;
+}
+.weather-forcast-date{
+  font-weight: 600;
+}
+.weather-forcast-temprature-max,
+.weather-forcast-temprature-max{
+  font-size: 15px;
 }
