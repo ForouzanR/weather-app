@@ -1,5 +1,7 @@
 body {
-  background: linear-gradient(135deg, #4e79ba, #76059c, #731460);
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/036/747/original/1.jpg?1654804978);
+  background-repeat: initial;
+  background-size: cover;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -65,17 +67,17 @@ ul {
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:visited {
-  background-color: #558ded !important;
-  border-color: #76059c;
+  background-color: #01102d !important;
+  border-color: #9638b6;
+  box-shadow: #9638b6 !important;
 }
 
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:visited,
 .btn-secondary:active {
-  background-color: #986ac9 !important;
-  border-color: #558ded ;
-
+  background-color: #01102d !important;
+  border-color: #9638b6;
 }
 
 .weather-temprature .active {
@@ -85,24 +87,30 @@ ul {
 .weather-temprature .active:hover {
   text-decoration: none;
 }
-.weather-forcast {
+.weather-forecast {
   text-align: center;
   margin-top: 25px;
   color: #cbd5e5;
 }
-.icon{
+.icon {
   width: 100px;
   margin-left: 50px !important;
   margin-top: -10px;
 }
-.temperature{
- margin-left: 50px !important;
- margin-top: 0px !important;
+.temperature {
+  margin-left: 50px !important;
+  margin-top: 0px !important;
 }
-.weather-forcast-date{
+.weather-forecast-date {
   font-weight: 600;
 }
-.weather-forcast-temprature-max,
-.weather-forcast-temprature-max{
+.weather-forecast-temprature-max,
+.weather-forecast-temprature-max {
   font-size: 15px;
+}
+.code,
+.code:hover,
+.code:active,
+.code:visited {
+  color: #8de3f9;
 }
