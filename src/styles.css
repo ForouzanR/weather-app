@@ -1,6 +1,6 @@
 body {
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/036/747/original/1.jpg?1654804978);
-  background-repeat: initial;
+  background-repeat:no-repeat;
   background-size: cover;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -67,7 +67,7 @@ ul {
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:visited {
-  background-color: #01102d !important;
+  background-color: #01102d;
   border-color: #9638b6;
   box-shadow: #9638b6 !important;
 }
@@ -76,7 +76,7 @@ ul {
 .btn-secondary:hover,
 .btn-secondary:visited,
 .btn-secondary:active {
-  background-color: #01102d !important;
+  background-color: #01102d ;
   border-color: #9638b6;
 }
 
@@ -87,10 +87,11 @@ ul {
 .weather-temprature .active:hover {
   text-decoration: none;
 }
-.weather-forecast {
+.weather-forecast-date {
   text-align: center;
   margin-top: 25px;
   color: #cbd5e5;
+  font-weight: 600;
 }
 .icon {
   width: 100px;
@@ -101,12 +102,10 @@ ul {
   margin-left: 50px !important;
   margin-top: 0px !important;
 }
-.weather-forecast-date {
-  font-weight: 600;
-}
 .weather-forecast-temprature-max,
-.weather-forecast-temprature-max {
+.weather-forecast-temprature-min{
   font-size: 15px;
+  color: #8de3f9 !important
 }
 .code,
 .code:hover,
