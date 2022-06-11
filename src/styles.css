@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-  color: #a7c4f4;
+  color: #71ebf8;
   font-size: 40px;
   font-weight: 500;
   height: 25px;
@@ -51,6 +51,7 @@ ul {
   font-size: 48px;
   font-weight: 400;
   line-height: 1;
+  color: #7beafd;
 }
 .units {
   position: relative;
@@ -104,7 +105,7 @@ ul {
   margin-top: 0px !important;
 }
 .weather-forecast{
-  color: #c2f3ff;
+  color: #81d3fd;
 }
 .weather-forecast-temprature-min{
  
