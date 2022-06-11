@@ -92,7 +92,7 @@ ul {
 .weather-forecast-date {
   text-align: center;
   margin-top: 25px;
-  color: #cbd5e5;
+  color: #7298fa;
   font-weight: 600;
 }
 .icon {
@@ -104,14 +104,22 @@ ul {
   margin-left: 50px !important;
   margin-top: 0px !important;
 }
-.weather-forecast {
-  color: #81d3fd;
+
+.weather-forecast-temperature-min {
+  color: #aae3ff;
 }
-.weather-forecast-temprature-min {
+.weather-forecast-temperature-max {
+  color: #03aff9;
 }
 .code,
 .code:hover,
 .code:active,
 .code:visited {
   color: #8de3f9;
+}
+.cities{
+  color: #7beafd;
+}
+.city-name{
+  margin-top: 10px;
 }
