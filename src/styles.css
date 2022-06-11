@@ -1,6 +1,6 @@
 body {
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/036/747/original/1.jpg?1654804978);
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -78,7 +78,7 @@ ul {
 .btn-secondary:hover,
 .btn-secondary:visited,
 .btn-secondary:active {
-  background-color: #01102d ;
+  background-color: #01102d;
   border-color: #9638b6;
 }
 
@@ -104,11 +104,10 @@ ul {
   margin-left: 50px !important;
   margin-top: 0px !important;
 }
-.weather-forecast{
+.weather-forecast {
   color: #81d3fd;
 }
-.weather-forecast-temprature-min{
- 
+.weather-forecast-temprature-min {
 }
 .code,
 .code:hover,
