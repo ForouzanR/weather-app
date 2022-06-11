@@ -7,17 +7,17 @@ body {
 
 h1 {
   color: #a7c4f4;
-  font-size: 35px;
-  font-weight: 100;
+  font-size: 40px;
+  font-weight: 500;
   height: 25px;
   line-height: 25px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 li {
   padding: 0px;
   margin-top: 8px;
   list-style: none;
-  color: #cbd5e5;
+  color: #abc4ed;
   font-size: 18px;
   font-weight: 100;
   line-height: 20px;
@@ -48,7 +48,7 @@ ul {
   margin-right: 20px;
 }
 .weather-temprature strong {
-  font-size: 45px;
+  font-size: 48px;
   font-weight: 400;
   line-height: 1;
 }
@@ -58,7 +58,7 @@ ul {
   top: -20px;
 }
 .info-sm {
-  font-size: 12px;
+  font-size: 13px;
   padding: 0;
   margin: 0;
 }
@@ -102,10 +102,11 @@ ul {
   margin-left: 50px !important;
   margin-top: 0px !important;
 }
-.weather-forecast-temprature-max,
+.weather-forecast{
+  color: #c2f3ff;
+}
 .weather-forecast-temprature-min{
-  font-size: 15px;
-  color: #8de3f9 !important
+ 
 }
 .code,
 .code:hover,
