@@ -73,15 +73,6 @@ ul {
   border-color: #9638b6;
   box-shadow: #9638b6 !important;
 }
-
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:visited,
-.btn-secondary:active {
-  background-color: #01102d;
-  border-color: #9638b6;
-}
-
 .weather-temprature .active {
   color: #83b2fe;
   cursor: default;
@@ -116,10 +107,14 @@ ul {
 .code:active,
 .code:visited {
   color: #8de3f9;
+  text-decoration: none;
 }
-.cities{
+.SheCodes {
+  color: #8de3f9;
+}
+.cities {
   color: #7beafd;
 }
-.city-name{
+.city-name {
   margin-top: 10px;
 }

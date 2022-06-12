@@ -125,7 +125,3 @@ let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
 search("Paris");
-function save(event) {
-  event.preventDefault();
-  let cityInputElement = document.querySelector("#city-input");
-}
